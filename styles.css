@@ -1,8 +1,4 @@
-.publish {
-    /* container styles if any */
-  }
-  
-  .publish h3 {
+   .publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
@@ -23,4 +19,15 @@
   .publish > form p {
     color: #025157;
     margin-right: 18px;
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
   }
